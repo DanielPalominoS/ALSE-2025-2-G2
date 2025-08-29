@@ -1,8 +1,8 @@
-#include <stdio.h>
+#include <iostream>
 int main(int argc, char** argv ){
-	printf("Hello World.\n" );
-	printf("another message.\n" );
-	printf("third message.\n" );
+	std::cout<<"Hello World.\n";
+	std::cout<<"another message.\n";
+	std::cout<<"third message.\n" );
 	return 0;
 	
 }
