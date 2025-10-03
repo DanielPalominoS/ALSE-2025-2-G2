@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
 
 # Set the project name
+
 project(EjemploClases)
 
 include_directories(include)
@@ -14,12 +15,14 @@ add_executable(ComplexUnified complex.cpp)
 # # Add the executable for VehicleUnified.cpp 
 # add_executable(VehicleUnified Vehicle.cpp)
 
+add_library(ComplexLib src/Complex.cpp)
+add_library(SphereLib src/Sphere.cpp)
+add_library(CubeLib src/Cube.cpp)
+
 # Add the executable for Cube.cpp
-#add_executable(CubeSeparated src/Cube.cpp src/main.cpp)
+add_executable(ComplexSeparated src/main.cpp)
+target_link_libraries(ComplexSeparated ComplexLib SphereLib CubeLib)
 
-# Add the executable for Complex.cpp
-#add_executable(ComplexUnified src/Complex.cpp)
+add_executable(ComplexSeparated2 src/main.cpp src/Complex.cpp src/Sphere.cpp src/Cube.cpp)
 
-# Add the executable for Vehicle.cpp
-#add_executable(VehicleUnified src/Vehicle.cpp)
 

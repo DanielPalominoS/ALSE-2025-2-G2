@@ -17,6 +17,12 @@ public:
     double getReal() {
         return real;
     }
+    void setImag(double i) {
+        imag = i;
+    }
+    double getImag() {
+        return imag;
+    }
 
     void display() {
         cout << real << " + " << imag << "i" << endl;
@@ -29,6 +35,8 @@ int main() {
     c1.setReal(5);
     c1.display();
     c2.display();
+    c2.getImag();
+    c2.setImag(5.2);
     Complex sum = c1 + c2;
     sum.display();
     cout<<"c2.real: "<<c2.getReal()<<  endl;
