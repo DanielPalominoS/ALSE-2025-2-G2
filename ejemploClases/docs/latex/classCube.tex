@@ -1,0 +1,142 @@
+\hypertarget{classCube}{}\doxysection{Cube Class Reference}
+\label{classCube}\index{Cube@{Cube}}
+
+
+Representa un cubo en 3D, derivado de \mbox{\hyperlink{classShape3D}{Shape3D}}.  
+
+
+
+
+{\ttfamily \#include $<$Cube.\+h$>$}
+
+
+
+Inheritance diagram for Cube\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=140pt]{classCube__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Cube\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=140pt]{classCube__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classCube_ab160c89bf83196c0e20e043ff13d9975}{Cube}} (double len)
+\begin{DoxyCompactList}\small\item\em Constructor que inicializa el cubo con una longitud dada. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classCube_a06f3d86fb63e3aad08623610aa3c17b4}\label{classCube_a06f3d86fb63e3aad08623610aa3c17b4}} 
+\mbox{\hyperlink{classCube_a06f3d86fb63e3aad08623610aa3c17b4}{Cube}} ()
+\begin{DoxyCompactList}\small\item\em Constructor por defecto. Inicializa el cubo con longitud cero. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classCube_a38d8ca7a74f2697cdb97658e430d454d}{get\+Volume}} () const override
+\begin{DoxyCompactList}\small\item\em Calcula el volumen del cubo. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classCube_a7a929e2d8af7ff906fc538a23a51fd75}{get\+Surface\+Area}} () const override
+\begin{DoxyCompactList}\small\item\em Calcula el área superficial del cubo. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCube_aadd319e7a033122946e8308e088bc2d2}{set\+Length}} (double len)
+\begin{DoxyCompactList}\small\item\em Establece la longitud del lado del cubo. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classCube_a527d51dcf6c90560f6222ade8eba2f15}{get\+Length}} () const
+\begin{DoxyCompactList}\small\item\em Obtiene la longitud del lado del cubo. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classCube_a50a1ee10578a47a093c11e5d97ed4a29}\label{classCube_a50a1ee10578a47a093c11e5d97ed4a29}} 
+\mbox{\hyperlink{classCube_a50a1ee10578a47a093c11e5d97ed4a29}{$\sim$\+Cube}} () override
+\begin{DoxyCompactList}\small\item\em Destructor de la clase \mbox{\hyperlink{classCube}{Cube}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Representa un cubo en 3D, derivado de \mbox{\hyperlink{classShape3D}{Shape3D}}. 
+
+Proporciona métodos para calcular el volumen y el área superficial, así como para manipular la longitud de sus lados. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classCube_ab160c89bf83196c0e20e043ff13d9975}\label{classCube_ab160c89bf83196c0e20e043ff13d9975}} 
+\index{Cube@{Cube}!Cube@{Cube}}
+\index{Cube@{Cube}!Cube@{Cube}}
+\doxysubsubsection{\texorpdfstring{Cube()}{Cube()}}
+{\footnotesize\ttfamily Cube\+::\+Cube (\begin{DoxyParamCaption}\item[{double}]{len }\end{DoxyParamCaption})}
+
+
+
+Constructor que inicializa el cubo con una longitud dada. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em len} & Longitud del lado del cubo. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classCube_a527d51dcf6c90560f6222ade8eba2f15}\label{classCube_a527d51dcf6c90560f6222ade8eba2f15}} 
+\index{Cube@{Cube}!getLength@{getLength}}
+\index{getLength@{getLength}!Cube@{Cube}}
+\doxysubsubsection{\texorpdfstring{getLength()}{getLength()}}
+{\footnotesize\ttfamily double Cube\+::get\+Length (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Obtiene la longitud del lado del cubo. 
+
+\begin{DoxyReturn}{Returns}
+Longitud del lado. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCube_a7a929e2d8af7ff906fc538a23a51fd75}\label{classCube_a7a929e2d8af7ff906fc538a23a51fd75}} 
+\index{Cube@{Cube}!getSurfaceArea@{getSurfaceArea}}
+\index{getSurfaceArea@{getSurfaceArea}!Cube@{Cube}}
+\doxysubsubsection{\texorpdfstring{getSurfaceArea()}{getSurfaceArea()}}
+{\footnotesize\ttfamily double Cube\+::get\+Surface\+Area (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Calcula el área superficial del cubo. 
+
+\begin{DoxyReturn}{Returns}
+Área superficial del cubo. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classShape3D_a4d015a7a89b21528db3b897cd8a8a09e}{Shape3D}}.
+
+\mbox{\Hypertarget{classCube_a38d8ca7a74f2697cdb97658e430d454d}\label{classCube_a38d8ca7a74f2697cdb97658e430d454d}} 
+\index{Cube@{Cube}!getVolume@{getVolume}}
+\index{getVolume@{getVolume}!Cube@{Cube}}
+\doxysubsubsection{\texorpdfstring{getVolume()}{getVolume()}}
+{\footnotesize\ttfamily double Cube\+::get\+Volume (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Calcula el volumen del cubo. 
+
+\begin{DoxyReturn}{Returns}
+Volumen del cubo. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classShape3D_a2960c838083af92331c000bda96fba81}{Shape3D}}.
+
+\mbox{\Hypertarget{classCube_aadd319e7a033122946e8308e088bc2d2}\label{classCube_aadd319e7a033122946e8308e088bc2d2}} 
+\index{Cube@{Cube}!setLength@{setLength}}
+\index{setLength@{setLength}!Cube@{Cube}}
+\doxysubsubsection{\texorpdfstring{setLength()}{setLength()}}
+{\footnotesize\ttfamily void Cube\+::set\+Length (\begin{DoxyParamCaption}\item[{double}]{len }\end{DoxyParamCaption})}
+
+
+
+Establece la longitud del lado del cubo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em len} & Nueva longitud del lado. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/Cube.\+h\item 
+src/Cube.\+cpp\end{DoxyCompactItemize}

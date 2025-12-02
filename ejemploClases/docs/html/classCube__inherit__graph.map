@@ -1,0 +1,4 @@
+<map id="Cube" name="Cube">
+<area shape="rect" id="node1" title="Representa un cubo en 3D, derivado de Shape3D." alt="" coords="18,80,73,107"/>
+<area shape="rect" id="node2" href="$classShape3D.html" title="Interface for three&#45;dimensional geometric shapes." alt="" coords="5,5,85,32"/>
+</map>

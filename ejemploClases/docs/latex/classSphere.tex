@@ -1,0 +1,170 @@
+\hypertarget{classSphere}{}\doxysection{Sphere Class Reference}
+\label{classSphere}\index{Sphere@{Sphere}}
+
+
+Concrete implementation of a three-\/dimensional sphere.  
+
+
+
+
+{\ttfamily \#include $<$Sphere.\+h$>$}
+
+
+
+Inheritance diagram for Sphere\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=140pt]{classSphere__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Sphere\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=140pt]{classSphere__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classSphere_aaadc55dc870b55550b107af8d6664b29}{Sphere}} (double len)
+\begin{DoxyCompactList}\small\item\em Construct a \mbox{\hyperlink{classSphere}{Sphere}} with a specified radius. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classSphere_a890a63ff583cb88e7ec4e840b4ef5eb9}{Sphere}} ()
+\begin{DoxyCompactList}\small\item\em Default constructor. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classSphere_a8a789aa675ed2111088bf045718d5ea8}{get\+Volume}} () const override
+\begin{DoxyCompactList}\small\item\em Compute the volume of the sphere. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classSphere_aee720fcefc95a844954cae46c283425d}{get\+Surface\+Area}} () const override
+\begin{DoxyCompactList}\small\item\em Compute the surface area of the sphere. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classSphere_a12f7d1a731e335890fbb0538b7d4bfbc}{set\+Length}} (double len)
+\begin{DoxyCompactList}\small\item\em Set the sphere radius. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classSphere_a4ac0154fcd437a8a14c1ae2135339df4}{get\+Length}} () const
+\begin{DoxyCompactList}\small\item\em Get the sphere radius. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classSphere_af0722084f74f8429d69d626978d3ce2f}{$\sim$\+Sphere}} () override
+\begin{DoxyCompactList}\small\item\em Virtual destructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Concrete implementation of a three-\/dimensional sphere. 
+
+\mbox{\hyperlink{classSphere}{Sphere}} represents a geometric sphere defined by its radius. It implements the \mbox{\hyperlink{classShape3D}{Shape3D}} interface by providing concrete implementations for computing volume and surface area. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classSphere_aaadc55dc870b55550b107af8d6664b29}\label{classSphere_aaadc55dc870b55550b107af8d6664b29}} 
+\index{Sphere@{Sphere}!Sphere@{Sphere}}
+\index{Sphere@{Sphere}!Sphere@{Sphere}}
+\doxysubsubsection{\texorpdfstring{Sphere()}{Sphere()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Sphere\+::\+Sphere (\begin{DoxyParamCaption}\item[{double}]{len }\end{DoxyParamCaption})}
+
+
+
+Construct a \mbox{\hyperlink{classSphere}{Sphere}} with a specified radius. 
+
+If the provided radius is not positive, the implementation will typically fall back to a default positive radius (see implementation in Sphere.\+cpp).
+
+
+\begin{DoxyParams}{Parameters}
+{\em len} & Radius of the sphere (must be $>$ 0 to be accepted). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classSphere_a890a63ff583cb88e7ec4e840b4ef5eb9}\label{classSphere_a890a63ff583cb88e7ec4e840b4ef5eb9}} 
+\index{Sphere@{Sphere}!Sphere@{Sphere}}
+\index{Sphere@{Sphere}!Sphere@{Sphere}}
+\doxysubsubsection{\texorpdfstring{Sphere()}{Sphere()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Sphere\+::\+Sphere (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default constructor. 
+
+Constructs a sphere with a default radius (usually 1.\+0). \mbox{\Hypertarget{classSphere_af0722084f74f8429d69d626978d3ce2f}\label{classSphere_af0722084f74f8429d69d626978d3ce2f}} 
+\index{Sphere@{Sphere}!````~Sphere@{$\sim$Sphere}}
+\index{````~Sphere@{$\sim$Sphere}!Sphere@{Sphere}}
+\doxysubsubsection{\texorpdfstring{$\sim$Sphere()}{~Sphere()}}
+{\footnotesize\ttfamily Sphere\+::$\sim$\+Sphere (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}}
+
+
+
+Virtual destructor. 
+
+Ensures proper cleanup of resources. Marked override to match the \mbox{\hyperlink{classShape3D}{Shape3D}} virtual destructor. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classSphere_a4ac0154fcd437a8a14c1ae2135339df4}\label{classSphere_a4ac0154fcd437a8a14c1ae2135339df4}} 
+\index{Sphere@{Sphere}!getLength@{getLength}}
+\index{getLength@{getLength}!Sphere@{Sphere}}
+\doxysubsubsection{\texorpdfstring{getLength()}{getLength()}}
+{\footnotesize\ttfamily double Sphere\+::get\+Length (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the sphere radius. 
+
+Returns the current radius stored in the object.
+
+\begin{DoxyReturn}{Returns}
+Radius as a double. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classSphere_aee720fcefc95a844954cae46c283425d}\label{classSphere_aee720fcefc95a844954cae46c283425d}} 
+\index{Sphere@{Sphere}!getSurfaceArea@{getSurfaceArea}}
+\index{getSurfaceArea@{getSurfaceArea}!Sphere@{Sphere}}
+\doxysubsubsection{\texorpdfstring{getSurfaceArea()}{getSurfaceArea()}}
+{\footnotesize\ttfamily double Sphere\+::get\+Surface\+Area (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Compute the surface area of the sphere. 
+
+Implements \mbox{\hyperlink{classShape3D_a4d015a7a89b21528db3b897cd8a8a09e}{Shape3\+D\+::get\+Surface\+Area()}}. Returns the surface area using the formula\+: 4 $\ast$ pi $\ast$ r$^\wedge$2.
+
+\begin{DoxyReturn}{Returns}
+Surface area as a double. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classShape3D_a4d015a7a89b21528db3b897cd8a8a09e}{Shape3D}}.
+
+\mbox{\Hypertarget{classSphere_a8a789aa675ed2111088bf045718d5ea8}\label{classSphere_a8a789aa675ed2111088bf045718d5ea8}} 
+\index{Sphere@{Sphere}!getVolume@{getVolume}}
+\index{getVolume@{getVolume}!Sphere@{Sphere}}
+\doxysubsubsection{\texorpdfstring{getVolume()}{getVolume()}}
+{\footnotesize\ttfamily double Sphere\+::get\+Volume (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Compute the volume of the sphere. 
+
+Implements \mbox{\hyperlink{classShape3D_a2960c838083af92331c000bda96fba81}{Shape3\+D\+::get\+Volume()}}. Returns the volume using the formula\+: (4/3) $\ast$ pi $\ast$ r$^\wedge$3.
+
+\begin{DoxyReturn}{Returns}
+Volume as a double. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classShape3D_a2960c838083af92331c000bda96fba81}{Shape3D}}.
+
+\mbox{\Hypertarget{classSphere_a12f7d1a731e335890fbb0538b7d4bfbc}\label{classSphere_a12f7d1a731e335890fbb0538b7d4bfbc}} 
+\index{Sphere@{Sphere}!setLength@{setLength}}
+\index{setLength@{setLength}!Sphere@{Sphere}}
+\doxysubsubsection{\texorpdfstring{setLength()}{setLength()}}
+{\footnotesize\ttfamily void Sphere\+::set\+Length (\begin{DoxyParamCaption}\item[{double}]{len }\end{DoxyParamCaption})}
+
+
+
+Set the sphere radius. 
+
+Sets the radius to the provided value if it is positive. If the value is non-\/positive, the radius is left unchanged.
+
+
+\begin{DoxyParams}{Parameters}
+{\em len} & New radius value (must be $>$ 0 to take effect). \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\mbox{\hyperlink{Sphere_8h}{Sphere.\+h}}\item 
+src/Sphere.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classShape3D.html" title="Interface for three&#45;dimensional geometric shapes." alt="" coords="5,31,85,57"/>
+<area shape="rect" id="node2" href="$classCube.html" title="Representa un cubo en 3D, derivado de Shape3D." alt="" coords="139,5,194,32"/>
+<area shape="rect" id="node3" href="$classSphere.html" title="Concrete implementation of a three&#45;dimensional sphere." alt="" coords="133,56,200,83"/>
+</map>

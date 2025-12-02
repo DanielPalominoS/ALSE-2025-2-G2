@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ToUpper",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ToUpper::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ToUpper-Debug-2e0a23b4db3a3b5134ca.json",
+					"name" : "ToUpper",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ToUpper_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ToUpper_autogen-Debug-f1bf6bb27eea159a39c7.json",
+					"name" : "ToUpper_autogen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dsps/QT/2025-1/ToUpper/build-ToUpper-Desktop-Debug",
+		"source" : "/home/dsps/QT/2025-1/ToUpper/ToUpper"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

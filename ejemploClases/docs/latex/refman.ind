@@ -1,0 +1,100 @@
+\begin{theindex}
+
+  \item {$\sim$Shape3D}
+    \subitem {Shape3D}, \hyperpage{18}
+  \item {$\sim$Sphere}
+    \subitem {Sphere}, \hyperpage{20}
+
+  \indexspace
+
+  \item {add}
+    \subitem {Complex}, \hyperpage{9}
+
+  \indexspace
+
+  \item {Complex}, \hyperpage{7}
+    \subitem {add}, \hyperpage{9}
+    \subitem {Complex}, \hyperpage{8}
+    \subitem {GetImag}, \hyperpage{10}
+    \subitem {GetReal}, \hyperpage{10}
+    \subitem {operator!=}, \hyperpage{13}
+    \subitem {operator$<$$<$}, \hyperpage{13}
+    \subitem {operator$\ast$}, \hyperpage{10}
+    \subitem {operator+}, \hyperpage{10, 11}
+    \subitem {operator-\/}, \hyperpage{11}
+    \subitem {operator/}, \hyperpage{11}
+    \subitem {operator=}, \hyperpage{12}
+    \subitem {operator==}, \hyperpage{14}
+    \subitem {SetImag}, \hyperpage{12}
+    \subitem {SetReal}, \hyperpage{12}
+  \item {Cube}, \hyperpage{14}
+    \subitem {Cube}, \hyperpage{15}
+    \subitem {getLength}, \hyperpage{16}
+    \subitem {getSurfaceArea}, \hyperpage{16}
+    \subitem {getVolume}, \hyperpage{16}
+    \subitem {setLength}, \hyperpage{16}
+
+  \indexspace
+
+  \item {GetImag}
+    \subitem {Complex}, \hyperpage{10}
+  \item {getLength}
+    \subitem {Cube}, \hyperpage{16}
+    \subitem {Sphere}, \hyperpage{20}
+  \item {GetReal}
+    \subitem {Complex}, \hyperpage{10}
+  \item {getSurfaceArea}
+    \subitem {Cube}, \hyperpage{16}
+    \subitem {Shape3D}, \hyperpage{18}
+    \subitem {Sphere}, \hyperpage{21}
+  \item {getVolume}
+    \subitem {Cube}, \hyperpage{16}
+    \subitem {Shape3D}, \hyperpage{18}
+    \subitem {Sphere}, \hyperpage{21}
+
+  \indexspace
+
+  \item {include/Shape3d.h}, \hyperpage{23}
+  \item {include/Sphere.h}, \hyperpage{24}
+
+  \indexspace
+
+  \item {operator!=}
+    \subitem {Complex}, \hyperpage{13}
+  \item {operator$<$$<$}
+    \subitem {Complex}, \hyperpage{13}
+  \item {operator$\ast$}
+    \subitem {Complex}, \hyperpage{10}
+  \item {operator+}
+    \subitem {Complex}, \hyperpage{10, 11}
+  \item {operator-\/}
+    \subitem {Complex}, \hyperpage{11}
+  \item {operator/}
+    \subitem {Complex}, \hyperpage{11}
+  \item {operator=}
+    \subitem {Complex}, \hyperpage{12}
+  \item {operator==}
+    \subitem {Complex}, \hyperpage{14}
+
+  \indexspace
+
+  \item {SetImag}
+    \subitem {Complex}, \hyperpage{12}
+  \item {setLength}
+    \subitem {Cube}, \hyperpage{16}
+    \subitem {Sphere}, \hyperpage{21}
+  \item {SetReal}
+    \subitem {Complex}, \hyperpage{12}
+  \item {Shape3D}, \hyperpage{17}
+    \subitem {$\sim$Shape3D}, \hyperpage{18}
+    \subitem {getSurfaceArea}, \hyperpage{18}
+    \subitem {getVolume}, \hyperpage{18}
+  \item {Sphere}, \hyperpage{19}
+    \subitem {$\sim$Sphere}, \hyperpage{20}
+    \subitem {getLength}, \hyperpage{20}
+    \subitem {getSurfaceArea}, \hyperpage{21}
+    \subitem {getVolume}, \hyperpage{21}
+    \subitem {setLength}, \hyperpage{21}
+    \subitem {Sphere}, \hyperpage{20}
+
+\end{theindex}

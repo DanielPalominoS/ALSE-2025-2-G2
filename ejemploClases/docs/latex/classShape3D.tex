@@ -1,0 +1,93 @@
+\hypertarget{classShape3D}{}\doxysection{Shape3D Class Reference}
+\label{classShape3D}\index{Shape3D@{Shape3D}}
+
+
+Interface for three-\/dimensional geometric shapes.  
+
+
+
+
+{\ttfamily \#include $<$Shape3d.\+h$>$}
+
+
+
+Inheritance diagram for Shape3D\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=190pt]{classShape3D__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual double \mbox{\hyperlink{classShape3D_a2960c838083af92331c000bda96fba81}{get\+Volume}} () const =0
+\begin{DoxyCompactList}\small\item\em Compute the volume of the shape. \end{DoxyCompactList}\item 
+virtual double \mbox{\hyperlink{classShape3D_a4d015a7a89b21528db3b897cd8a8a09e}{get\+Surface\+Area}} () const =0
+\begin{DoxyCompactList}\small\item\em Compute the surface area of the shape. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{classShape3D_a7e61e62ea8480784762271c89eecb88d}{$\sim$\+Shape3D}} ()
+\begin{DoxyCompactList}\small\item\em Virtual destructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Interface for three-\/dimensional geometric shapes. 
+
+\mbox{\hyperlink{classShape3D}{Shape3D}} is an abstract base class that requires derived classes to implement methods for computing the volume and the surface area of a shape. It defines a virtual destructor to ensure proper cleanup of derived objects through base pointers. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classShape3D_a7e61e62ea8480784762271c89eecb88d}\label{classShape3D_a7e61e62ea8480784762271c89eecb88d}} 
+\index{Shape3D@{Shape3D}!````~Shape3D@{$\sim$Shape3D}}
+\index{````~Shape3D@{$\sim$Shape3D}!Shape3D@{Shape3D}}
+\doxysubsubsection{\texorpdfstring{$\sim$Shape3D()}{~Shape3D()}}
+{\footnotesize\ttfamily virtual Shape3\+D\+::$\sim$\+Shape3D (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Virtual destructor. 
+
+Ensures that destructors of derived classes are called when an object is deleted through a pointer to \mbox{\hyperlink{classShape3D}{Shape3D}}. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classShape3D_a4d015a7a89b21528db3b897cd8a8a09e}\label{classShape3D_a4d015a7a89b21528db3b897cd8a8a09e}} 
+\index{Shape3D@{Shape3D}!getSurfaceArea@{getSurfaceArea}}
+\index{getSurfaceArea@{getSurfaceArea}!Shape3D@{Shape3D}}
+\doxysubsubsection{\texorpdfstring{getSurfaceArea()}{getSurfaceArea()}}
+{\footnotesize\ttfamily virtual double Shape3\+D\+::get\+Surface\+Area (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Compute the surface area of the shape. 
+
+Pure virtual method that should be implemented by concrete shape classes. The returned value represents the total surface area.
+
+\begin{DoxyReturn}{Returns}
+Surface area as a double. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classSphere_aee720fcefc95a844954cae46c283425d}{Sphere}}, and \mbox{\hyperlink{classCube_a7a929e2d8af7ff906fc538a23a51fd75}{Cube}}.
+
+\mbox{\Hypertarget{classShape3D_a2960c838083af92331c000bda96fba81}\label{classShape3D_a2960c838083af92331c000bda96fba81}} 
+\index{Shape3D@{Shape3D}!getVolume@{getVolume}}
+\index{getVolume@{getVolume}!Shape3D@{Shape3D}}
+\doxysubsubsection{\texorpdfstring{getVolume()}{getVolume()}}
+{\footnotesize\ttfamily virtual double Shape3\+D\+::get\+Volume (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Compute the volume of the shape. 
+
+This is a pure virtual function. Derived classes must override this method and return the volume in the appropriate units.
+
+\begin{DoxyReturn}{Returns}
+Volume as a double. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classSphere_a8a789aa675ed2111088bf045718d5ea8}{Sphere}}, and \mbox{\hyperlink{classCube_a38d8ca7a74f2697cdb97658e430d454d}{Cube}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/\mbox{\hyperlink{Shape3d_8h}{Shape3d.\+h}}\end{DoxyCompactItemize}
